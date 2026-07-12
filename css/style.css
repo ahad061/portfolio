@@ -875,3 +875,20 @@ a.contact-card:hover {
 .project-link:hover {
   color: var(--growth);
 }
+/* ============================================
+   NAV PHOTO
+   ============================================ */
+.nav-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--growth);
+  margin-left: 14px;
+  flex-shrink: 0;
+}
+@media (max-width: 860px) {
+  .nav-photo {
+    display: none;
+  }
+}
