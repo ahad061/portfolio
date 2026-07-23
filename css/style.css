@@ -34,6 +34,7 @@ body {
   font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -234,6 +235,10 @@ h3 {
   grid-template-columns: 1.1fr 0.9fr;
   gap: 56px;
   align-items: center;
+  min-width: 0;
+}
+.hero-copy {
+  min-width: 0;
 }
 
 .hero h1 {
